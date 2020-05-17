@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781D31372431436D00A79267 /* ARKitAngleDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781D31362431436D00A79267 /* ARKitAngleDetection.swift */; };
+		781D313924317B2100A79267 /* TabbedHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781D313824317B2100A79267 /* TabbedHome.swift */; };
+		781D313B24317BA500A79267 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781D313A24317BA500A79267 /* SettingView.swift */; };
+		781D313D24317BE000A79267 /* SupportPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781D313C24317BE000A79267 /* SupportPageView.swift */; };
+		78A69C172425A85B00752A77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69C162425A85B00752A77 /* AppDelegate.swift */; };
+		78A69C192425A85B00752A77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69C182425A85B00752A77 /* SceneDelegate.swift */; };
+		78A69C1B2425A85B00752A77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69C1A2425A85B00752A77 /* ContentView.swift */; };
+		78A69C1D2425A85C00752A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A69C1C2425A85C00752A77 /* Assets.xcassets */; };
+		78A69C202425A85C00752A77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A69C1F2425A85C00752A77 /* Preview Assets.xcassets */; };
+		78A69C232425A85C00752A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A69C212425A85C00752A77 /* LaunchScreen.storyboard */; };
+		78A69C2F2425AA7E00752A77 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69C2E2425AA7E00752A77 /* BLEManager.swift */; };
+		78A69C322425AC4E00752A77 /* PDFViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69C312425AC4E00752A77 /* PDFViewNavigator.swift */; };
+		78D0FF0E24709FFA005C78C4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D0FF0D24709FFA005C78C4 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		781D31362431436D00A79267 /* ARKitAngleDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitAngleDetection.swift; sourceTree = "<group>"; };
+		781D313824317B2100A79267 /* TabbedHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedHome.swift; sourceTree = "<group>"; };
+		781D313A24317BA500A79267 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		781D313C24317BE000A79267 /* SupportPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPageView.swift; sourceTree = "<group>"; };
+		78A69C132425A85B00752A77 /* bFaaaP-Arduino1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bFaaaP-Arduino1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A69C162425A85B00752A77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78A69C182425A85B00752A77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78A69C1A2425A85B00752A77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78A69C1C2425A85C00752A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A69C1F2425A85C00752A77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78A69C222425A85C00752A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78A69C242425A85C00752A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A69C2E2425AA7E00752A77 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		78A69C312425AC4E00752A77 /* PDFViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewNavigator.swift; sourceTree = "<group>"; };
+		78D0FF0D24709FFA005C78C4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A69C102425A85B00752A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781D31352431430600A79267 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				781D31362431436D00A79267 /* ARKitAngleDetection.swift */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		78A69C0A2425A85B00752A77 = {
+			isa = PBXGroup;
+			children = (
+				78A69C152425A85B00752A77 /* bFaaaP-Arduino1 */,
+				78A69C142425A85B00752A77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78A69C142425A85B00752A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A69C132425A85B00752A77 /* bFaaaP-Arduino1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A69C152425A85B00752A77 /* bFaaaP-Arduino1 */ = {
+			isa = PBXGroup;
+			children = (
+				78A69C162425A85B00752A77 /* AppDelegate.swift */,
+				78A69C182425A85B00752A77 /* SceneDelegate.swift */,
+				781D313824317B2100A79267 /* TabbedHome.swift */,
+				78A69C1A2425A85B00752A77 /* ContentView.swift */,
+				781D313A24317BA500A79267 /* SettingView.swift */,
+				781D313C24317BE000A79267 /* SupportPageView.swift */,
+				78D0FF0D24709FFA005C78C4 /* WebView.swift */,
+				78A69C302425AC1E00752A77 /* PDFView */,
+				781D31352431430600A79267 /* ARKit */,
+				78A69C2D2425AA5F00752A77 /* BLEManager */,
+				78A69C1C2425A85C00752A77 /* Assets.xcassets */,
+				78A69C212425A85C00752A77 /* LaunchScreen.storyboard */,
+				78A69C242425A85C00752A77 /* Info.plist */,
+				78A69C1E2425A85C00752A77 /* Preview Content */,
+			);
+			path = "bFaaaP-Arduino1";
+			sourceTree = "<group>";
+		};
+		78A69C1E2425A85C00752A77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78A69C1F2425A85C00752A77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78A69C2D2425AA5F00752A77 /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				78A69C2E2425AA7E00752A77 /* BLEManager.swift */,
+			);
+			path = BLEManager;
+			sourceTree = "<group>";
+		};
+		78A69C302425AC1E00752A77 /* PDFView */ = {
+			isa = PBXGroup;
+			children = (
+				78A69C312425AC4E00752A77 /* PDFViewNavigator.swift */,
+			);
+			path = PDFView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A69C122425A85B00752A77 /* bFaaaP-Arduino1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A69C272425A85C00752A77 /* Build configuration list for PBXNativeTarget "bFaaaP-Arduino1" */;
+			buildPhases = (
+				78A69C0F2425A85B00752A77 /* Sources */,
+				78A69C102425A85B00752A77 /* Frameworks */,
+				78A69C112425A85B00752A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bFaaaP-Arduino1";
+			productName = "bFaaaP-Arduino1";
+			productReference = 78A69C132425A85B00752A77 /* bFaaaP-Arduino1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A69C0B2425A85B00752A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "宍戸知行";
+				TargetAttributes = {
+					78A69C122425A85B00752A77 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 78A69C0E2425A85B00752A77 /* Build configuration list for PBXProject "bFaaaP-Arduino1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78A69C0A2425A85B00752A77;
+			productRefGroup = 78A69C142425A85B00752A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A69C122425A85B00752A77 /* bFaaaP-Arduino1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A69C112425A85B00752A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A69C232425A85C00752A77 /* LaunchScreen.storyboard in Resources */,
+				78A69C202425A85C00752A77 /* Preview Assets.xcassets in Resources */,
+				78A69C1D2425A85C00752A77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A69C0F2425A85B00752A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A69C172425A85B00752A77 /* AppDelegate.swift in Sources */,
+				78D0FF0E24709FFA005C78C4 /* WebView.swift in Sources */,
+				78A69C2F2425AA7E00752A77 /* BLEManager.swift in Sources */,
+				781D313B24317BA500A79267 /* SettingView.swift in Sources */,
+				78A69C192425A85B00752A77 /* SceneDelegate.swift in Sources */,
+				781D313D24317BE000A79267 /* SupportPageView.swift in Sources */,
+				78A69C1B2425A85B00752A77 /* ContentView.swift in Sources */,
+				781D31372431436D00A79267 /* ARKitAngleDetection.swift in Sources */,
+				781D313924317B2100A79267 /* TabbedHome.swift in Sources */,
+				78A69C322425AC4E00752A77 /* PDFViewNavigator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78A69C212425A85C00752A77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A69C222425A85C00752A77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78A69C252425A85C00752A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78A69C262425A85C00752A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A69C282425A85C00752A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bFaaaP-Arduino1/Preview Content\"";
+				DEVELOPMENT_TEAM = A7JG5T69VB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "bFaaaP-Arduino1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomo.shishido.bFaaaP-Arduino1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78A69C292425A85C00752A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bFaaaP-Arduino1/Preview Content\"";
+				DEVELOPMENT_TEAM = A7JG5T69VB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "bFaaaP-Arduino1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomo.shishido.bFaaaP-Arduino1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A69C0E2425A85B00752A77 /* Build configuration list for PBXProject "bFaaaP-Arduino1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A69C252425A85C00752A77 /* Debug */,
+				78A69C262425A85C00752A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A69C272425A85C00752A77 /* Build configuration list for PBXNativeTarget "bFaaaP-Arduino1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A69C282425A85C00752A77 /* Debug */,
+				78A69C292425A85C00752A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A69C0B2425A85B00752A77 /* Project object */;
+}
